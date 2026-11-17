@@ -1,0 +1,205 @@
+/* Mapa NEABs/NEABIs — componente reutilizável.
+   Todas as regras ficam sob .neabs-mapa para não vazar para o site. */
+.neabs-mapa {
+  --nm-tinta: #1F3B57;
+  --nm-cinza: #5C6B73;
+  --nm-claro: #7C8B94;
+  --nm-borda: #C9D4DB;
+  --nm-fundo: rgba(255, 255, 255, .97);
+  position: relative;
+  overflow: hidden;
+  background: #DEE9F0;
+  color: #22333B;
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+               Helvetica, Arial, sans-serif;
+}
+.neabs-mapa *, .neabs-mapa *::before, .neabs-mapa *::after {
+  box-sizing: border-box;
+}
+.neabs-mapa .nm-canvas { position: absolute; inset: 0; }
+
+/* ---------------------------------------------------------------- painéis */
+.neabs-mapa .nm-painel {
+  position: absolute;
+  z-index: 900;
+  background: var(--nm-fundo);
+  border: 1px solid var(--nm-borda);
+  border-radius: 10px;
+  box-shadow: 0 6px 22px rgba(20, 40, 60, .16);
+  max-width: calc(100% - 24px);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+}
+.neabs-mapa .nm-titulo { left: 14px; top: 14px; width: 296px; }
+.neabs-mapa .nm-legenda { right: 14px; bottom: 26px; width: 232px; }
+.neabs-mapa .nm-arrastando { box-shadow: 0 12px 34px rgba(20, 40, 60, .26); }
+
+.neabs-mapa .nm-cab {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 9px 9px 7px 12px;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.neabs-mapa .nm-cab:active { cursor: grabbing; }
+.neabs-mapa .nm-recolhido .nm-cab { padding-bottom: 9px; }
+.neabs-mapa .nm-h1 {
+  flex: 1;
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.28;
+  font-weight: 700;
+  color: var(--nm-tinta);
+}
+.neabs-mapa .nm-h2 {
+  flex: 1;
+  margin: 0;
+  font-size: 10.5px;
+  line-height: 1.5;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--nm-tinta);
+}
+.neabs-mapa .nm-btn-min {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  border: 1px solid #DCE4E9;
+  border-radius: 6px;
+  background: #fff;
+  color: var(--nm-cinza);
+  font: 600 14px/1 inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.neabs-mapa .nm-btn-min:hover { background: #F2F5F8; color: var(--nm-tinta); }
+.neabs-mapa .nm-btn-min:focus-visible { outline: 2px solid var(--nm-tinta); outline-offset: 1px; }
+.neabs-mapa .nm-menu { margin-left: auto; }
+.neabs-mapa .nm-corpo { padding: 0 12px 9px; }
+.neabs-mapa .nm-recolhido .nm-corpo { display: none; }
+.neabs-mapa .nm-titulo.nm-recolhido, .neabs-mapa .nm-legenda.nm-recolhido {
+  width: auto;
+}
+
+.neabs-mapa .nm-sub { margin: 0 0 2px; font-size: 11px; color: var(--nm-cinza); }
+.neabs-mapa .nm-sub strong { color: var(--nm-tinta); }
+.neabs-mapa .nm-fraco { color: var(--nm-claro); font-size: 10.5px; }
+
+/* --------------------------------------------------------------- controles */
+.neabs-mapa .nm-seg {
+  display: flex;
+  gap: 3px;
+  padding: 3px;
+  margin: 0 0 7px;
+  background: #EDF2F5;
+  border-radius: 8px;
+}
+.neabs-mapa .nm-seg button {
+  flex: 1;
+  border: 0;
+  border-radius: 6px;
+  padding: 5px 2px;
+  background: transparent;
+  color: var(--nm-cinza);
+  font: 600 11.5px/1.2 inherit;
+  cursor: pointer;
+}
+.neabs-mapa .nm-seg button[aria-pressed="true"] {
+  background: #fff;
+  color: var(--nm-tinta);
+  box-shadow: 0 1px 3px rgba(20, 40, 60, .16);
+}
+.neabs-mapa .nm-seg button:focus-visible { outline: 2px solid var(--nm-tinta); outline-offset: -1px; }
+
+.neabs-mapa .nm-itens { display: flex; flex-direction: column; gap: 1px; }
+.neabs-mapa .nm-linha {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 2px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.neabs-mapa .nm-linha:hover { background: #F4F7F9; }
+.neabs-mapa .nm-linha.nm-fixa { cursor: default; }
+.neabs-mapa .nm-linha.nm-fixa:hover { background: transparent; }
+.neabs-mapa .nm-linha.nm-desligado { opacity: .45; }
+.neabs-mapa .nm-linha input {
+  margin: 0;
+  width: 13px;
+  height: 13px;
+  accent-color: var(--nm-tinta);
+}
+.neabs-mapa .nm-nome { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.neabs-mapa .nm-linha small { color: var(--nm-cinza); font-size: 11px; font-variant-numeric: tabular-nums; }
+.neabs-mapa .nm-marca {
+  flex: none;
+  width: 11px;
+  height: 11px;
+  border: 1.3px solid #16232B;
+}
+.neabs-mapa .nm-marca.nm-circulo { border-radius: 50%; }
+.neabs-mapa .nm-marca.nm-quadrado { border-radius: 2px; }
+.neabs-mapa .nm-marca.nm-pequeno { width: 8px; height: 8px; border-radius: 50%; }
+
+.neabs-mapa .nm-nota {
+  margin: 7px 0 0;
+  padding-top: 7px;
+  border-top: 1px solid #E1E8ED;
+  font-size: 10px;
+  line-height: 1.38;
+  color: var(--nm-cinza);
+}
+
+/* --------------------------------------------------------------- marcadores */
+.neabs-mapa .leaflet-div-icon { background: transparent; border: 0; }
+.neabs-mapa .nm-pt { display: flex; align-items: center; justify-content: center; }
+.neabs-mapa .nm-pt > span {
+  display: block;
+  border: 1.4px solid #16232B;
+  transition: transform .12s ease;
+}
+.neabs-mapa .nm-pt.nm-circulo > span { width: 13px; height: 13px; border-radius: 50%; }
+.neabs-mapa .nm-pt.nm-quadrado > span { width: 12px; height: 12px; border-radius: 2px; }
+.neabs-mapa .nm-pt.nm-pequeno > span { width: 9px; height: 9px; border-radius: 50%; }
+.neabs-mapa .nm-pt:hover > span,
+.neabs-mapa .nm-pt:focus > span { transform: scale(1.35); }
+
+/* ------------------------------------------------------------------ popup */
+.neabs-mapa .leaflet-popup-content-wrapper { border-radius: 10px; }
+.neabs-mapa .leaflet-popup-content { margin: 13px 15px; font-size: 13px; line-height: 1.45; min-width: 244px; }
+.neabs-mapa .nm-pop-sigla { font-weight: 700; color: var(--nm-tinta); font-size: 14px; }
+.neabs-mapa .nm-pop-nome { margin: 3px 0 8px; }
+.neabs-mapa .nm-pop-lin { margin: 3px 0; font-size: 12px; color: #43545C; }
+.neabs-mapa .nm-pop-lin b { color: #22333B; font-weight: 600; }
+.neabs-mapa .nm-pop-site { display: inline-block; margin-top: 8px; font-size: 12px; color: #0B5CAB; word-break: break-all; }
+.neabs-mapa .nm-pop-tag {
+  display: inline-block;
+  margin-top: 9px;
+  padding: 3px 8px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .03em;
+}
+.neabs-mapa .nm-pop-tag.neab { background: #E3E8EE; color: #1F3B57; }
+.neabs-mapa .nm-pop-tag.neabi { background: #F7E4DF; color: #A23E28; }
+.neabs-mapa .nm-pop-tag.corr { background: #EDF1F3; color: #5C6B73; }
+
+.neabs-mapa .leaflet-control-attribution { font-size: 10px; }
+.neabs-mapa .leaflet-control-zoom a { color: #22333B; }
+
+/* ---------------------------------------------------------------- responsivo */
+@media (max-width: 760px) {
+  .neabs-mapa .nm-titulo { display: none; }
+  .neabs-mapa .nm-legenda { right: 10px; bottom: 22px; width: 206px; }
+}

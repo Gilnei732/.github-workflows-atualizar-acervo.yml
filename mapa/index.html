@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NEABs, NEABIs e correlatos — mapa interativo</title>
+<meta name="description" content="Mapa interativo dos núcleos de estudos afro-brasileiros e indígenas do Brasil.">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="assets/mapa-neabs.css">
+<style>
+  html, body { margin: 0; height: 100%; background: #DEE9F0; }
+  #mapa { position: absolute; inset: 0; }
+  noscript p { font: 14px/1.5 sans-serif; padding: 24px; }
+</style>
+</head>
+<body>
+<div id="mapa" class="neabs-mapa" data-neabs-mapa></div>
+<noscript><p>Este mapa precisa de JavaScript ativado.</p></noscript>
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="dados/neabs.js"></script>
+<script src="assets/mapa-neabs.js"></script>
+</body>
+</html>

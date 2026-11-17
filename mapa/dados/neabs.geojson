@@ -1,0 +1,3636 @@
+{
+ "type": "FeatureCollection",
+ "name": "neabs_neabis_brasil",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.8243,
+     -9.975
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UFAC",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas",
+    "instituicao": "Universidade Federal do Acre (UFAC)",
+    "cidade": "Rio Branco",
+    "uf": "AC",
+    "regiao": "Norte",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.8243,
+     -9.975
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/IFAC",
+    "nome": "Núcleo de Estudos Afro-Brasileiros",
+    "instituicao": "Instituto Federal do Acre (IFAC)",
+    "cidade": "Rio Branco",
+    "uf": "AC",
+    "regiao": "Norte",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -60.0212,
+     -3.1187
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UFAM",
+    "nome": "Núcleo de Estudos e Pesquisas Afrobrasileiras e Indígenas",
+    "instituicao": "Universidade Federal do Amazonas (UFAM)",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "regiao": "Norte",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -60.0212,
+     -3.1187
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UEA",
+    "nome": "Núcleo de Estudos Afro-Brasileiros",
+    "instituicao": "Universidade do Estado do Amazonas (UEA)",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "regiao": "Norte",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -56.729,
+     -2.6374
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UEA-Parintins",
+    "nome": "Núcleo de Estudos Afro-Brasileiros – Campus Parintins",
+    "instituicao": "Universidade do Estado do Amazonas (UEA)",
+    "cidade": "Parintins",
+    "uf": "AM",
+    "regiao": "Norte",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -60.19,
+     -3.2748
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFAM-Iranduba",
+    "nome": "Núcleo de Estudo Afro-brasileiro e Indígena",
+    "instituicao": "Instituto Federal do Amazonas (IFAM) – Campus Iranduba",
+    "cidade": "Iranduba",
+    "uf": "AM",
+    "regiao": "Norte",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -60.6753,
+     2.8238
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFRR",
+    "nome": "Núcleo de Estudos Afro-brasileiros e Indígenas",
+    "instituicao": "Instituto Federal de Roraima (IFRR) – Campus Boa Vista Centro",
+    "cidade": "Boa Vista",
+    "uf": "RR",
+    "regiao": "Norte",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -60.6753,
+     2.8238
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UFR",
+    "nome": "NEABI Estamira Gomes de Sousa",
+    "instituicao": "Universidade Federal de Roraima (UFR)",
+    "cidade": "Boa Vista",
+    "uf": "RR",
+    "regiao": "Norte",
+    "site": "https://neabiufr.com.br/wp/",
+    "categoria": "NEABI",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -48.4898,
+     -1.4554
+    ]
+   },
+   "properties": {
+    "sigla": "GEABI/UFPA",
+    "nome": "Grupo de Estudos Afro-Brasileiros e Indígenas",
+    "instituicao": "Universidade Federal do Pará (UFPA)",
+    "cidade": "Belém",
+    "uf": "PA",
+    "regiao": "Norte",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -52.21,
+     -3.2041
+    ]
+   },
+   "properties": {
+    "sigla": "GEABI/UFPA-Altamira",
+    "nome": "Grupo de Estudos Afro-Brasileiros e Indígenas – Campus Altamira",
+    "instituicao": "Universidade Federal do Pará (UFPA)",
+    "cidade": "Altamira",
+    "uf": "PA",
+    "regiao": "Norte",
+    "site": "https://www.facebook.com/geabi.ufpa.altamira/",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "UFSCar"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -48.4898,
+     -1.4554
+    ]
+   },
+   "properties": {
+    "sigla": "GEAM/UFPA",
+    "nome": "Grupo de Estudos Afroamazônico",
+    "instituicao": "Universidade Federal do Pará (UFPA)",
+    "cidade": "Belém",
+    "uf": "PA",
+    "regiao": "Norte",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -48.4898,
+     -1.4554
+    ]
+   },
+   "properties": {
+    "sigla": "GERA/UFPA",
+    "nome": "Núcleo de Estudos e Pesquisas sobre Formação de Professores e Relações Étnico-Raciais",
+    "instituicao": "Universidade Federal do Pará (UFPA)",
+    "cidade": "Belém",
+    "uf": "PA",
+    "regiao": "Norte",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -48.4898,
+     -1.4554
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UEPA",
+    "nome": "Núcleo de Estudos Afrobrasileiros",
+    "instituicao": "Universidade do Estado do Pará (UEPA)",
+    "cidade": "Belém",
+    "uf": "PA",
+    "regiao": "Norte",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -48.4898,
+     -1.4554
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFPA",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas",
+    "instituicao": "Instituto Federal do Pará (IFPA)",
+    "cidade": "Belém",
+    "uf": "PA",
+    "regiao": "Norte",
+    "site": "https://ifpa.edu.br/component/content/article?id=1138",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -48.8788,
+     -1.7218
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFPA-Abaetetuba",
+    "nome": "Núcleo de Estudos Afro-brasileiros e Indígenas – Campus Abaetetuba",
+    "instituicao": "Instituto Federal do Pará (IFPA)",
+    "cidade": "Abaetetuba",
+    "uf": "PA",
+    "regiao": "Norte",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -49.1327,
+     -5.3807
+    ]
+   },
+   "properties": {
+    "sigla": "N'UMBUNTU",
+    "nome": "Núcleo de Estudos, Pesquisa e Extensão em Relações Étnico-Raciais, Movimentos Sociais e Educação",
+    "instituicao": "Universidade Federal do Sul e Sudeste do Pará (UNIFESSPA)",
+    "cidade": "Marabá",
+    "uf": "PA",
+    "regiao": "Norte",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -50.4791,
+     -1.6804
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFPA-Breves",
+    "nome": "Núcleo de Estudos Afro-brasileiros e Indígenas – Campus Breves",
+    "instituicao": "Instituto Federal do Pará (IFPA)",
+    "cidade": "Breves",
+    "uf": "PA",
+    "regiao": "Norte",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -51.0694,
+     0.0349
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UNIFAP",
+    "nome": "Núcleo de Estudos Afro-Brasileiros",
+    "instituicao": "Universidade Federal do Amapá (UNIFAP)",
+    "cidade": "Macapá",
+    "uf": "AP",
+    "regiao": "Norte",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -47.4224,
+     -6.3245
+    ]
+   },
+   "properties": {
+    "sigla": "NEAF/UFT",
+    "nome": "Núcleo de Estudos e Pesquisas da África e dos Afro-Brasileiros",
+    "instituicao": "Universidade Federal do Tocantins (UFT) – Campus Tocantinópolis",
+    "cidade": "Tocantinópolis",
+    "uf": "TO",
+    "regiao": "Norte",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -48.3558,
+     -10.24
+    ]
+   },
+   "properties": {
+    "sigla": "UBUNTU/IFTO",
+    "nome": "Grupo de Estudo e Pesquisa em Gênero, Juventude e Etnicidade",
+    "instituicao": "Instituto Federal do Tocantins (IFTO)",
+    "cidade": "Palmas",
+    "uf": "TO",
+    "regiao": "Norte",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -44.2825,
+     -2.5387
+    ]
+   },
+   "properties": {
+    "sigla": "NIESAFRO/UFMA",
+    "nome": "Núcleo Interdisciplinar em Estudos Africanos e Afro-Brasileiros",
+    "instituicao": "Universidade Federal do Maranhão (UFMA)",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -44.2825,
+     -2.5387
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFMA",
+    "nome": "Núcleo de Estudos Afro-brasileiros e Indígenas",
+    "instituicao": "Instituto Federal do Maranhão (IFMA)",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -44.4062,
+     -2.3957
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFMA-Alcântara",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas – Campus Alcântara",
+    "instituicao": "Instituto Federal do Maranhão (IFMA)",
+    "cidade": "Alcântara",
+    "uf": "MA",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -44.2825,
+     -2.5387
+    ]
+   },
+   "properties": {
+    "sigla": "NEÁFRICA",
+    "nome": "Núcleo de Estudos Africanos",
+    "instituicao": "Universidade Estadual do Maranhão (UEMA) / UFMA",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "medio",
+    "fonte": "UFSCar"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -47.4777,
+     -5.5185
+    ]
+   },
+   "properties": {
+    "sigla": "NEAI/UEMASUL",
+    "nome": "Núcleo de Estudos Africanos e Indígenas",
+    "instituicao": "Universidade Estadual da Região Tocantina do Maranhão (UEMASUL)",
+    "cidade": "Imperatriz",
+    "uf": "MA",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -42.8034,
+     -5.0919
+    ]
+   },
+   "properties": {
+    "sigla": "IFARADÁ/UFPI",
+    "nome": "Núcleo de Pesquisa sobre Africanidades e Afrodescendência",
+    "instituicao": "Universidade Federal do Piauí (UFPI)",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -42.8034,
+     -5.0919
+    ]
+   },
+   "properties": {
+    "sigla": "NUPECSO/UESPI",
+    "nome": "Núcleo de Estudos e Pesquisas em Educação e Ciências Sociais",
+    "instituicao": "Universidade Estadual do Piauí (UESPI)",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -41.5546,
+     -3.4728
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFPI-Cocal",
+    "nome": "Núcleo de Estudos Afro-brasileiros e Indígenas – Campus Cocal",
+    "instituicao": "Instituto Federal do Piauí (IFPI)",
+    "cidade": "Cocal",
+    "uf": "PI",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -38.5423,
+     -3.7166
+    ]
+   },
+   "properties": {
+    "sigla": "NACE/UFC",
+    "nome": "Núcleo das Africanidades Cearenses",
+    "instituicao": "Universidade Federal do Ceará (UFC)",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -38.5423,
+     -3.7166
+    ]
+   },
+   "properties": {
+    "sigla": "NUAFRO/UECE",
+    "nome": "Laboratório de Estudos e Pesquisas em Afrobrasilidades, Gênero e Família",
+    "instituicao": "Universidade Estadual do Ceará (UECE)",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -38.5423,
+     -3.7166
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFCE",
+    "nome": "Núcleos de Estudos Afro-brasileiros e Indígenas",
+    "instituicao": "Instituto Federal do Ceará (IFCE)",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -40.6536,
+     -5.1677
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFCE-Crateús",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas – Campus Crateús",
+    "instituicao": "Instituto Federal do Ceará (IFCE)",
+    "cidade": "Crateús",
+    "uf": "CE",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -39.5836,
+     -3.4993
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFCE-Itapipoca",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas – Campus Itapipoca",
+    "instituicao": "Instituto Federal do Ceará (IFCE)",
+    "cidade": "Itapipoca",
+    "uf": "CE",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -39.7337,
+     -5.1126
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFCE-Boa Viagem",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas – Campus Boa Viagem",
+    "instituicao": "Instituto Federal do Ceará (IFCE)",
+    "cidade": "Boa Viagem",
+    "uf": "CE",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -38.6227,
+     -5.9021
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFCE-Jaguaribe",
+    "nome": "Núcleo de Estudos Afro-brasileiro e Indígenas – Campus Jaguaribe",
+    "instituicao": "Instituto Federal do Ceará (IFCE)",
+    "cidade": "Jaguaribe",
+    "uf": "CE",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -39.3076,
+     -7.1962
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFCE-Juazeiro",
+    "nome": "Núcleos de Estudos Afro-brasileiros e Indígenas – Campus Juazeiro do Norte",
+    "instituicao": "Instituto Federal do Ceará (IFCE)",
+    "cidade": "Juazeiro do Norte",
+    "uf": "CE",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -39.4103,
+     -7.2153
+    ]
+   },
+   "properties": {
+    "sigla": "NEGRER/URCA",
+    "nome": "Núcleo de Estudos e Pesquisas em Educação, Gênero e Relações Étnico-Raciais",
+    "instituicao": "Universidade Regional do Cariri (URCA)",
+    "cidade": "Crato",
+    "uf": "CE",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -37.3474,
+     -5.1837
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UERN",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas",
+    "instituicao": "Universidade do Estado do Rio Grande do Norte (UERN)",
+    "cidade": "Mossoró",
+    "uf": "RN",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -37.3474,
+     -5.1837
+    ]
+   },
+   "properties": {
+    "sigla": "NEGRAS/UFERSA",
+    "nome": "Núcleo de Estudos de Gênero, Relações Étnicorraciais, Aprendizagens e Saberes",
+    "instituicao": "Universidade Federal Rural do Semi-Árido (UFERSA)",
+    "cidade": "Mossoró",
+    "uf": "RN",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -35.485,
+     -6.8506
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UEPB",
+    "nome": "Núcleo de Estudos Afro Brasileiro e Indígenas – Campus Guarabira",
+    "instituicao": "Universidade Estadual da Paraíba (UEPB)",
+    "cidade": "Guarabira",
+    "uf": "PB",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -34.8771,
+     -8.0467
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UFPE",
+    "nome": "Núcleo de Estudos Afro-Brasileiros",
+    "instituicao": "Universidade Federal de Pernambuco (UFPE)",
+    "cidade": "Recife",
+    "uf": "PE",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -34.8771,
+     -8.0467
+    ]
+   },
+   "properties": {
+    "sigla": "LabERER/UFPE",
+    "nome": "Laboratório de Educação das Relações Étnico-Raciais",
+    "instituicao": "Universidade Federal de Pernambuco (UFPE)",
+    "cidade": "Recife",
+    "uf": "PE",
+    "regiao": "Nordeste",
+    "site": "https://sites.ufpe.br/laberer/",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -34.8771,
+     -8.0467
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UFRPE",
+    "nome": "Núcleo de Estudos Afro-Brasileiros",
+    "instituicao": "Universidade Federal Rural de Pernambuco (UFRPE)",
+    "cidade": "Recife",
+    "uf": "PE",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -34.8771,
+     -8.0467
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFPE",
+    "nome": "Núcleos de Estudos Afro-brasileiros e Indígena",
+    "instituicao": "Instituto Federal de Pernambuco (IFPE)",
+    "cidade": "Recife",
+    "uf": "PE",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -39.1247,
+     -8.0737
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFSertão-Salgueiro",
+    "nome": "Núcleo de Estudos Africanos, Afro-brasileiros e Indígenas – Campus Salgueiro",
+    "instituicao": "Instituto Federal do Sertão Pernambucano (IFSertãoPE)",
+    "cidade": "Salgueiro",
+    "uf": "PE",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -35.735,
+     -9.666
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UFAL",
+    "nome": "Núcleo de Estudos Afro-Brasileiros",
+    "instituicao": "Universidade Federal de Alagoas (UFAL)",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -35.735,
+     -9.666
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFAL",
+    "nome": "Núcleos de Estudos Afro-brasileiros e Indígena",
+    "instituicao": "Instituto Federal de Alagoas (IFAL)",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -36.5819,
+     -10.2874
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFAL-Penedo",
+    "nome": "Núcleo de Estudos Afro-brasileiros e Indígenas – Campus Penedo",
+    "instituicao": "Instituto Federal de Alagoas (IFAL)",
+    "cidade": "Penedo",
+    "uf": "AL",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -37.2044,
+     -11.0084
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UFS",
+    "nome": "Núcleo de Estudos Africanos, Afro-brasileiros e Indígenas",
+    "instituicao": "Universidade Federal de Sergipe (UFS)",
+    "cidade": "São Cristóvão",
+    "uf": "SE",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -38.5011,
+     -12.9718
+    ]
+   },
+   "properties": {
+    "sigla": "CEAO/UFBA",
+    "nome": "Centro de Estudos Afro-Orientais",
+    "instituicao": "Universidade Federal da Bahia (UFBA)",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "regiao": "Nordeste",
+    "site": "http://www.ceao.ufba.br/",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "UFSCar"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -38.5011,
+     -12.9718
+    ]
+   },
+   "properties": {
+    "sigla": "AFROUNEB",
+    "nome": "Núcleo Interdisciplinar de Estudos Africanos e Afro-Brasileiros",
+    "instituicao": "Universidade do Estado da Bahia (UNEB)",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -38.5011,
+     -12.9718
+    ]
+   },
+   "properties": {
+    "sigla": "CEPAIA/UNEB",
+    "nome": "Centro de Estudos dos Povos Afro-Índio-Americanos",
+    "instituicao": "Universidade do Estado da Bahia (UNEB)",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -39.5821,
+     -16.3715
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UNEB-XVIII",
+    "nome": "Núcleo de Estudos Afro-brasileiro e Indígena – Campus XVIII",
+    "instituicao": "Universidade do Estado da Bahia (UNEB)",
+    "cidade": "Eunápolis",
+    "uf": "BA",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -38.9663,
+     -12.2664
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UEFS",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas",
+    "instituicao": "Universidade Estadual de Feira de Santana (UEFS)",
+    "cidade": "Feira de Santana",
+    "uf": "BA",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -40.0877,
+     -13.8509
+    ]
+   },
+   "properties": {
+    "sigla": "ODEERE/UESB",
+    "nome": "Órgão de Educação das Relações Étnicas",
+    "instituicao": "Universidade Estadual do Sudoeste da Bahia (UESB)",
+    "cidade": "Jequié",
+    "uf": "BA",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -38.9587,
+     -12.5994
+    ]
+   },
+   "properties": {
+    "sigla": "Angela Davis/UFRB",
+    "nome": "Coletivo Angela Davis – Grupo de Pesquisa em Gênero, Raça e Subalternidade",
+    "instituicao": "Universidade Federal do Recôncavo da Bahia (UFRB)",
+    "cidade": "Cachoeira",
+    "uf": "BA",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -39.0643,
+     -16.4435
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UFSB",
+    "nome": "Núcleo de Estudos Afro-Brasileiros",
+    "instituicao": "Universidade Federal do Sul da Bahia (UFSB)",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -38.5011,
+     -12.9718
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFBA",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas",
+    "instituicao": "Instituto Federal da Bahia (IFBA)",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -42.7799,
+     -14.2231
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFBaiano-Guanambi",
+    "nome": "Núcleo de Estudos Africanos, Afro-brasileiros e Indígenas – Campus Guanambi",
+    "instituicao": "Instituto Federal Baiano (IF Baiano)",
+    "cidade": "Guanambi",
+    "uf": "BA",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -39.073,
+     -13.3669
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFBaiano-Valença",
+    "nome": "Núcleo de Estudos Africanos, Afro-brasileiros e Indígenas – Campus Valença",
+    "instituicao": "Instituto Federal Baiano (IF Baiano)",
+    "cidade": "Valença",
+    "uf": "BA",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -39.0412,
+     -12.5994
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFBaiano-Gov.Mangabeira",
+    "nome": "Núcleo de Estudos Afro-brasileiro e Indígena – Campus Governador Mangabeira",
+    "instituicao": "Instituto Federal Baiano (IF Baiano)",
+    "cidade": "Governador Mangabeira",
+    "uf": "BA",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -42.7245,
+     -10.823
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFBaiano-Xique-Xique",
+    "nome": "Núcleos de Estudos Afro-brasileiros e Indígena – Campus Xique-Xique",
+    "instituicao": "Instituto Federal Baiano (IF Baiano)",
+    "cidade": "Xique-Xique",
+    "uf": "BA",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -40.2482,
+     -15.2475
+    ]
+   },
+   "properties": {
+    "sigla": "GEPEDET/IFBaiano",
+    "nome": "Grupo de Pesquisa em Educação, Diversidade, Linguagens e Tecnologias – Campus Itapetinga",
+    "instituicao": "Instituto Federal Baiano (IF Baiano)",
+    "cidade": "Itapetinga",
+    "uf": "BA",
+    "regiao": "Nordeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -56.0974,
+     -15.601
+    ]
+   },
+   "properties": {
+    "sigla": "NEPRE/UFMT",
+    "nome": "Núcleo de Estudos e Pesquisas sobre Relações Raciais e Educação",
+    "instituicao": "Universidade Federal de Mato Grosso (UFMT)",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "regiao": "Centro-Oeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -55.5091,
+     -11.8604
+    ]
+   },
+   "properties": {
+    "sigla": "ENCRESPAR/UNEMAT",
+    "nome": "Núcleo de Estudos Afro-Brasileiros – Campus Sinop",
+    "instituicao": "Universidade do Estado de Mato Grosso (UNEMAT)",
+    "cidade": "Sinop",
+    "uf": "MT",
+    "regiao": "Centro-Oeste",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -57.6818,
+     -16.0764
+    ]
+   },
+   "properties": {
+    "sigla": "NEGRA/UNEMAT",
+    "nome": "Núcleo de Estudos sobre Educação, Gênero, Raça e Alteridade – Campus Cáceres",
+    "instituicao": "Universidade do Estado de Mato Grosso (UNEMAT)",
+    "cidade": "Cáceres",
+    "uf": "MT",
+    "regiao": "Centro-Oeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -56.0974,
+     -15.601
+    ]
+   },
+   "properties": {
+    "sigla": "NUMDI/IFMT",
+    "nome": "Núcleo de Estudos Afro-brasileiro, Indígena e de Fronteira Maria Dimpina Lobo Duarte",
+    "instituicao": "Instituto Federal de Mato Grosso (IFMT)",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "regiao": "Centro-Oeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -54.6295,
+     -20.4486
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UFMS",
+    "nome": "Núcleo de Estudos Afro-Brasileiros",
+    "instituicao": "Universidade Federal de Mato Grosso do Sul (UFMS)",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "regiao": "Centro-Oeste",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -54.812,
+     -22.2231
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UFGD",
+    "nome": "Núcleo de Estudos Afro-Brasileiros",
+    "instituicao": "Universidade Federal da Grande Dourados (UFGD)",
+    "cidade": "Dourados",
+    "uf": "MS",
+    "regiao": "Centro-Oeste",
+    "site": "https://portal.ufgd.edu.br/setor/neab/index",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -54.812,
+     -22.2231
+    ]
+   },
+   "properties": {
+    "sigla": "CEPEGRE/UEMS",
+    "nome": "Centro de Estudos, Pesquisa e Extensão em Educação, Gênero, Raça e Etnia",
+    "instituicao": "Universidade Estadual de Mato Grosso do Sul (UEMS)",
+    "cidade": "Dourados",
+    "uf": "MS",
+    "regiao": "Centro-Oeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -56.1489,
+     -21.4799
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFMS-Jardim",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas – Campus Jardim",
+    "instituicao": "Instituto Federal de Mato Grosso do Sul (IFMS)",
+    "cidade": "Jardim",
+    "uf": "MS",
+    "regiao": "Centro-Oeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -54.812,
+     -22.2231
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFMS-Dourados",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas – Campus Dourados",
+    "instituicao": "Instituto Federal de Mato Grosso do Sul (IFMS)",
+    "cidade": "Dourados",
+    "uf": "MS",
+    "regiao": "Centro-Oeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -57.651,
+     -19.0077
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFMS-Corumbá",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas – Campus Corumbá",
+    "instituicao": "Instituto Federal de Mato Grosso do Sul (IFMS)",
+    "cidade": "Corumbá",
+    "uf": "MS",
+    "regiao": "Centro-Oeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -54.751,
+     -18.5013
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFMS-Coxim",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas – Campus Coxim",
+    "instituicao": "Instituto Federal de Mato Grosso do Sul (IFMS)",
+    "cidade": "Coxim",
+    "uf": "MS",
+    "regiao": "Centro-Oeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -51.7204,
+     -17.8784
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UFJ",
+    "nome": "Núcleo de Estudos Afro Brasileiro e Indígena",
+    "instituicao": "Universidade Federal de Jataí (UFJ)",
+    "cidade": "Jataí",
+    "uf": "GO",
+    "regiao": "Centro-Oeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -49.2643,
+     -16.6864
+    ]
+   },
+   "properties": {
+    "sigla": "NEADI/UFG",
+    "nome": "Núcleo de Estudos Afrodescendentes e Indígena",
+    "instituicao": "Universidade Federal de Goiás (UFG)",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "regiao": "Centro-Oeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -49.2643,
+     -16.6864
+    ]
+   },
+   "properties": {
+    "sigla": "Rosa Parks/UFG",
+    "nome": "Coletivo Rosa Parks",
+    "instituicao": "Universidade Federal de Goiás (UFG)",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "regiao": "Centro-Oeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -49.2643,
+     -16.6864
+    ]
+   },
+   "properties": {
+    "sigla": "Pindoba/UFG",
+    "nome": "Grupo de Pesquisa em Narrativas da Diferença",
+    "instituicao": "Universidade Federal de Goiás (UFG)",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "regiao": "Centro-Oeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -49.2643,
+     -16.6864
+    ]
+   },
+   "properties": {
+    "sigla": "LaGENTE/UFG",
+    "nome": "Laboratório de Estudos de Gênero Étnico-Raciais e Espacialidades",
+    "instituicao": "Universidade Federal de Goiás (UFG)",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "regiao": "Centro-Oeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -50.9192,
+     -17.7923
+    ]
+   },
+   "properties": {
+    "sigla": "UniRV Diversidade",
+    "nome": "UniRV Diversidade",
+    "instituicao": "Universidade de Rio Verde (UniRV)",
+    "cidade": "Rio Verde",
+    "uf": "GO",
+    "regiao": "Centro-Oeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -48.2015,
+     -17.4651
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFGoiano-Urutaí",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas – Campus Urutaí",
+    "instituicao": "Instituto Federal Goiano (IF Goiano)",
+    "cidade": "Urutaí",
+    "uf": "GO",
+    "regiao": "Centro-Oeste",
+    "site": "https://www.ifgoiano.edu.br/home/index.php/nucleos/566-neabi-urutai.html",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "UFSCar"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -47.9297,
+     -15.7795
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UnB",
+    "nome": "Núcleo de Estudos Afro-brasileiros",
+    "instituicao": "Universidade de Brasília (UnB)",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "regiao": "Centro-Oeste",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.9266,
+     -19.9102
+    ]
+   },
+   "properties": {
+    "sigla": "CEA/UFMG",
+    "nome": "Centro de Estudos Africanos",
+    "instituicao": "Universidade Federal de Minas Gerais (UFMG)",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "regiao": "Sudeste",
+    "site": "https://www.ufmg.br/dri/cea/",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "UFSCar"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.3398,
+     -21.7595
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UFJF",
+    "nome": "Núcleo de Estudos Afro-Brasileiros",
+    "instituicao": "Universidade Federal de Juiz de Fora (UFJF)",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -48.2749,
+     -18.9141
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UFU",
+    "nome": "Núcleo de Estudos Afro-brasileiros",
+    "instituicao": "Universidade Federal de Uberlândia (UFU)",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -49.4639,
+     -18.9772
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI Pontal/UFU",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas – Campus Pontal",
+    "instituicao": "Universidade Federal de Uberlândia (UFU)",
+    "cidade": "Ituiutaba",
+    "uf": "MG",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -48.2749,
+     -18.9141
+    ]
+   },
+   "properties": {
+    "sigla": "Yalodê/UFU",
+    "nome": "Grupo de Estudos e Pesquisa em Poéticas Latinoamericanas e Educação para as Relações Étnico-Raciais",
+    "instituicao": "Universidade Federal de Uberlândia (UFU)",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.512,
+     -20.3796
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UFOP",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas",
+    "instituicao": "Universidade Federal de Ouro Preto (UFOP)",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "regiao": "Sudeste",
+    "site": "https://neabi.ufop.br/",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.6031,
+     -18.2413
+    ]
+   },
+   "properties": {
+    "sigla": "NUPED/UFVJM",
+    "nome": "Núcleo de Pesquisa, Ensino e Extensão sobre Diáspora Africana",
+    "instituicao": "Universidade Federal dos Vales do Jequitinhonha e Mucuri (UFVJM)",
+    "cidade": "Diamantina",
+    "uf": "MG",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.6031,
+     -18.2413
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UFVJM",
+    "nome": "Núcleo de Estudos Afro-brasileiro e Indígenas",
+    "instituicao": "Universidade Federal dos Vales do Jequitinhonha e Mucuri (UFVJM)",
+    "cidade": "Diamantina",
+    "uf": "MG",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.9266,
+     -19.9102
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/CEFET-MG",
+    "nome": "Núcleo de Pesquisa e Estudos Afro-Brasileiros",
+    "instituicao": "Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG)",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.9266,
+     -19.9102
+    ]
+   },
+   "properties": {
+    "sigla": "CGRAI/CEFET-MG",
+    "nome": "Coletivo de Gênero e Raça / NEAB",
+    "instituicao": "Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG)",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "regiao": "Sudeste",
+    "site": "https://www.cgrai.cefetmg.br/apresentacao-neab/",
+    "categoria": "Correlato",
+    "confianca": "medio",
+    "fonte": "UFSCar"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.512,
+     -20.3796
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/IFMG-OP",
+    "nome": "Núcleo de Estudos Afro-brasileiros – Campus Ouro Preto",
+    "instituicao": "Instituto Federal de Minas Gerais (IFMG)",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -44.0844,
+     -19.7621
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFMG-RN",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas – Campus Ribeirão das Neves",
+    "instituicao": "Instituto Federal de Minas Gerais (IFMG)",
+    "cidade": "Ribeirão das Neves",
+    "uf": "MG",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.9266,
+     -19.9102
+    ]
+   },
+   "properties": {
+    "sigla": "NEPGRES/IFMG",
+    "nome": "Núcleo de Estudos e Pesquisas em Gênero, Raça/Etnia e Sexualidade",
+    "instituicao": "Instituto Federal de Minas Gerais (IFMG)",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.9266,
+     -19.9102
+    ]
+   },
+   "properties": {
+    "sigla": "NIEHLAFRO/UEMG",
+    "nome": "Núcleo de Estudos Afro-brasileiros",
+    "instituicao": "Universidade do Estado de Minas Gerais (UEMG)",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.3398,
+     -21.7595
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFSudesteMG",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas",
+    "instituicao": "Instituto Federal do Sudeste de Minas Gerais",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -40.3128,
+     -20.3155
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UFES",
+    "nome": "Núcleo de Estudos Afro-Brasileiros",
+    "instituicao": "Universidade Federal do Espírito Santo (UFES)",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "regiao": "Sudeste",
+    "site": "https://neab.ufes.br/",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -40.3128,
+     -20.3155
+    ]
+   },
+   "properties": {
+    "sigla": "Nafricab/UFES",
+    "nome": "Núcleo de Estudos e Pesquisas Africanidades e Brasilidades",
+    "instituicao": "Universidade Federal do Espírito Santo (UFES)",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -40.6269,
+     -19.5493
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFES-Colatina",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas – Campus Colatina",
+    "instituicao": "Instituto Federal do Espírito Santo (IFES)",
+    "cidade": "Colatina",
+    "uf": "ES",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.2003,
+     -22.9129
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UFRJ",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas",
+    "instituicao": "Universidade Federal do Rio de Janeiro (UFRJ)",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "UFSCar"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -41.7848,
+     -22.3768
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UFRJ-Macaé",
+    "nome": "Núcleo de Estudos Afro-brasileiro da Cidade Universitária de Macaé",
+    "instituicao": "Universidade Federal do Rio de Janeiro (UFRJ)",
+    "cidade": "Macaé",
+    "uf": "RJ",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.2003,
+     -22.9129
+    ]
+   },
+   "properties": {
+    "sigla": "PROAFRO/UERJ",
+    "nome": "Programa de Estudos e Debates dos Povos Africanos e Afro-Americanos",
+    "instituicao": "Universidade do Estado do Rio de Janeiro (UERJ)",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "regiao": "Sudeste",
+    "site": "http://neab-proafro.blogspot.com/",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.2003,
+     -22.9129
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UERJ",
+    "nome": "Núcleo de Estudos Afro-brasileiros",
+    "instituicao": "Universidade do Estado do Rio de Janeiro (UERJ)",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -41.3181,
+     -21.7622
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UENF",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas",
+    "instituicao": "Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF)",
+    "cidade": "Campos dos Goytacazes",
+    "uf": "RJ",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.1034,
+     -22.8832
+    ]
+   },
+   "properties": {
+    "sigla": "PENESB/UFF",
+    "nome": "Programa de Educação sobre o Negro na Sociedade Brasileira",
+    "instituicao": "Universidade Federal Fluminense (UFF)",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.1034,
+     -22.8832
+    ]
+   },
+   "properties": {
+    "sigla": "NEAF/UFF",
+    "nome": "Núcleo de Estudos Africanos",
+    "instituicao": "Universidade Federal Fluminense (UFF)",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "regiao": "Sudeste",
+    "site": "https://www.historia.uff.br/neaf/",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "UFSCar"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.1034,
+     -22.8832
+    ]
+   },
+   "properties": {
+    "sigla": "LICAFRO/UFF",
+    "nome": "Laboratório de Literaturas e Culturas Africanas e da Diáspora Negra",
+    "instituicao": "Universidade Federal Fluminense (UFF)",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "regiao": "Sudeste",
+    "site": "https://www.facebook.com/licafrouff/",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -41.9475,
+     -22.5174
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UFF-Rio das Ostras",
+    "nome": "Núcleo de Estudos Afro-Brasileiros – Campus Rio das Ostras",
+    "instituicao": "Universidade Federal Fluminense (UFF)",
+    "cidade": "Rio das Ostras",
+    "uf": "RJ",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.7155,
+     -22.7526
+    ]
+   },
+   "properties": {
+    "sigla": "LEAFRO/UFRRJ",
+    "nome": "Laboratório de Estudos Afro-Brasileiros e Indígenas",
+    "instituicao": "Universidade Federal Rural do Rio de Janeiro (UFRRJ)",
+    "cidade": "Seropédica",
+    "uf": "RJ",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.2003,
+     -22.9129
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/CEFET-RJ",
+    "nome": "Núcleo de Estudos Afro-brasileiros",
+    "instituicao": "Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ)",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.2003,
+     -22.9129
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFRJ",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas",
+    "instituicao": "Instituto Federal do Rio de Janeiro (IFRJ)",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.7108,
+     -22.6078
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFRJ-Paracambi",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas – Campus Paracambi",
+    "instituicao": "Instituto Federal do Rio de Janeiro (IFRJ)",
+    "cidade": "Paracambi",
+    "uf": "RJ",
+    "regiao": "Sudeste",
+    "site": "https://portal.ifrj.edu.br/paracambi/neabi",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.2003,
+     -22.9129
+    ]
+   },
+   "properties": {
+    "sigla": "ODARA/IFRJ",
+    "nome": "Grupo Interdisciplinar de Pesquisa em Cultura, Identidade e Diversidade",
+    "instituicao": "Instituto Federal do Rio de Janeiro (IFRJ)",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.2003,
+     -22.9129
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/CPII",
+    "nome": "Núcleo de Estudos Afro-Brasileiros do Colégio Pedro II",
+    "instituicao": "Colégio Pedro II",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "regiao": "Sudeste",
+    "site": "https://www.cp2.g12.br/concursos/186-programas_interdisciplinares/neab/1476-nucleo-de-estudos-afro-brasileiros-neab.html",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.2003,
+     -22.9129
+    ]
+   },
+   "properties": {
+    "sigla": "ONDJANGO/FAETEC",
+    "nome": "Núcleo de Estudos Afro-brasileiros",
+    "instituicao": "FAETEC – Escola Técnica Estadual Oscar Tenório",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.2003,
+     -22.9129
+    ]
+   },
+   "properties": {
+    "sigla": "LabMere/ISERJ",
+    "nome": "Laboratório de Memórias em Relações Étnico-Raciais na Formação de Professores",
+    "instituicao": "Instituto Superior de Educação do Rio de Janeiro (ISERJ)",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -49.3758,
+     -20.8113
+    ]
+   },
+   "properties": {
+    "sigla": "NUPE/UNESP",
+    "nome": "Núcleo Negro para Pesquisa e Extensão da UNESP – GT Rio Preto",
+    "instituicao": "Universidade Estadual Paulista (UNESP) – Campus São José do Rio Preto",
+    "cidade": "São José do Rio Preto",
+    "uf": "SP",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -51.3426,
+     -20.4326
+    ]
+   },
+   "properties": {
+    "sigla": "NABISA/UNESP",
+    "nome": "Núcleo Afro-brasileiro e Indígena de Ilha Solteira",
+    "instituicao": "Universidade Estadual Paulista (UNESP) – Campus Ilha Solteira",
+    "cidade": "Ilha Solteira",
+    "uf": "SP",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -46.6395,
+     -23.5329
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UNIFESP",
+    "nome": "Núcleo de Estudos Afro-brasileiros",
+    "instituicao": "Universidade Federal de São Paulo (UNIFESP)",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -46.5432,
+     -23.6737
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UFABC",
+    "nome": "Núcleo de Estudos Africanos e Afro-Brasileiros",
+    "instituicao": "Universidade Federal do ABC (UFABC)",
+    "cidade": "Santo André",
+    "uf": "SP",
+    "regiao": "Sudeste",
+    "site": "https://nucleos.ufabc.edu.br/neab",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -47.886,
+     -22.0174
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UFSCar",
+    "nome": "Núcleo de Estudos Afro-Brasileiros",
+    "instituicao": "Universidade Federal de São Carlos (UFSCar)",
+    "cidade": "São Carlos",
+    "uf": "SP",
+    "regiao": "Sudeste",
+    "site": "http://www.neab.ufscar.br/",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -47.8099,
+     -21.1699
+    ]
+   },
+   "properties": {
+    "sigla": "NEIAB/UNAERP",
+    "nome": "Núcleo de Estudos Indígena e Afro-brasileiro",
+    "instituicao": "Universidade de Ribeirão Preto (UNAERP)",
+    "cidade": "Ribeirão Preto",
+    "uf": "SP",
+    "regiao": "Sudeste",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -46.6395,
+     -23.5329
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFSP",
+    "nome": "Núcleo de Estudos Afro-brasileiros e Indígenas",
+    "instituicao": "Instituto Federal de São Paulo (IFSP)",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "regiao": "Sudeste",
+    "site": "https://ifsp.edu.br/acoes-e-programas/9-reitoria/310-nucleo-de-estudos-afro-brasileiros-e-indigenas-neabi",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -49.2646,
+     -25.4195
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UFPR",
+    "nome": "Núcleo de Estudos Afro-Brasileiros",
+    "instituicao": "Universidade Federal do Paraná (UFPR)",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "regiao": "Sul",
+    "site": "http://www.neab.ufpr.br/portal/",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -51.1691,
+     -23.304
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UEL",
+    "nome": "Núcleo de Estudos Afro-Brasileiros",
+    "instituicao": "Universidade Estadual de Londrina (UEL)",
+    "cidade": "Londrina",
+    "uf": "PR",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -51.1691,
+     -23.304
+    ]
+   },
+   "properties": {
+    "sigla": "LEAFRO/UEL",
+    "nome": "Laboratório de Cultura e Estudos Afro-brasileiros e Africanos",
+    "instituicao": "Universidade Estadual de Londrina (UEL)",
+    "cidade": "Londrina",
+    "uf": "PR",
+    "regiao": "Sul",
+    "site": "https://sites.uel.br/leafro/",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -51.9333,
+     -23.4205
+    ]
+   },
+   "properties": {
+    "sigla": "NEIAB/UEM",
+    "nome": "Núcleo de Estudos Interdisciplinares Afro-brasileiros",
+    "instituicao": "Universidade Estadual de Maringá (UEM)",
+    "cidade": "Maringá",
+    "uf": "PR",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -49.9739,
+     -23.1591
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UENP",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas",
+    "instituicao": "Universidade Estadual do Norte do Paraná (UENP)",
+    "cidade": "Jacarezinho",
+    "uf": "PR",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -51.4623,
+     -25.3902
+    ]
+   },
+   "properties": {
+    "sigla": "NEAA/UNICENTRO",
+    "nome": "Núcleo de Estudos Ameríndios e Africanos",
+    "instituicao": "Universidade Estadual do Centro-Oeste (UNICENTRO)",
+    "cidade": "Guarapuava",
+    "uf": "PR",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -53.459,
+     -24.9573
+    ]
+   },
+   "properties": {
+    "sigla": "GEE/UNIOESTE",
+    "nome": "Grupo de Estudos Etno-Culturais",
+    "instituicao": "Universidade Estadual do Oeste do Paraná (UNIOESTE)",
+    "cidade": "Cascavel",
+    "uf": "PR",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -50.1668,
+     -25.0916
+    ]
+   },
+   "properties": {
+    "sigla": "NUREGS/UEPG",
+    "nome": "Núcleo de Relações Étnico-Raciais, de Gênero e Sexualidade",
+    "instituicao": "Universidade Estadual de Ponta Grossa (UEPG)",
+    "cidade": "Ponta Grossa",
+    "uf": "PR",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -54.5827,
+     -25.5427
+    ]
+   },
+   "properties": {
+    "sigla": "NEALA/UNILA",
+    "nome": "Núcleo de Estudo Afro Latino Americanos e Caribenhos",
+    "instituicao": "Universidade Federal da Integração Latino-Americana (UNILA)",
+    "cidade": "Foz do Iguaçu",
+    "uf": "PR",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -49.2646,
+     -25.4195
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFPR",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas",
+    "instituicao": "Instituto Federal do Paraná (IFPR)",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -51.1691,
+     -23.304
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFPR-Londrina",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas – Campus Londrina",
+    "instituicao": "Instituto Federal do Paraná (IFPR)",
+    "cidade": "Londrina",
+    "uf": "PR",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -49.529,
+     -25.4525
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFPR-Campo Largo",
+    "nome": "Núcleo de Estudos Afro-brasileiros e Indígenas – Campus Campo Largo",
+    "instituicao": "Instituto Federal do Paraná (IFPR)",
+    "cidade": "Campo Largo",
+    "uf": "PR",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -48.5477,
+     -27.5945
+    ]
+   },
+   "properties": {
+    "sigla": "NIEAAB/UFSC",
+    "nome": "Núcleo Interdisciplinar de Estudos Africanos e Afro-Brasileiros",
+    "instituicao": "Universidade Federal de Santa Catarina (UFSC)",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "regiao": "Sul",
+    "site": "https://africa.ufsc.br/",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "UFSCar"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -48.5477,
+     -27.5945
+    ]
+   },
+   "properties": {
+    "sigla": "ALTERITAS/UFSC",
+    "nome": "ALTERITAS: Diferença, Arte e Educação",
+    "instituicao": "Universidade Federal de Santa Catarina (UFSC)",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "regiao": "Sul",
+    "site": "https://alteritas.paginas.ufsc.br/",
+    "categoria": "Correlato",
+    "confianca": "alto",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -48.5477,
+     -27.5945
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UDESC",
+    "nome": "Núcleo de Estudos Afro-Brasileiros",
+    "instituicao": "Universidade do Estado de Santa Catarina (UDESC)",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "regiao": "Sul",
+    "site": "https://www.instagram.com/neab_udesc/",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -48.8487,
+     -26.3045
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UNIVILLE",
+    "nome": "Núcleo de Estudos Afro-Brasileiros",
+    "instituicao": "Universidade da Região de Joinville (UNIVILLE)",
+    "cidade": "Joinville",
+    "uf": "SC",
+    "regiao": "Sul",
+    "site": "https://www.instagram.com/neab.univille/",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -49.3729,
+     -28.6723
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UNESC",
+    "nome": "Núcleo de Estudos Afro-Brasileiros",
+    "instituicao": "Universidade do Extremo Sul Catarinense (UNESC)",
+    "cidade": "Criciúma",
+    "uf": "SC",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -49.0709,
+     -26.9155
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/FURB",
+    "nome": "Núcleo de Estudos Afro-Brasileiros",
+    "instituicao": "Universidade Regional de Blumenau (FURB)",
+    "cidade": "Blumenau",
+    "uf": "SC",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEAB",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -50.3259,
+     -27.815
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UNIPLAC",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas – Negro e Educação",
+    "instituicao": "Universidade do Planalto Catarinense (UNIPLAC)",
+    "cidade": "Lages",
+    "uf": "SC",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -51.1498,
+     -29.7545
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UNISINOS",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas",
+    "instituicao": "Universidade do Vale do Rio dos Sinos (UNISINOS)",
+    "cidade": "São Leopoldo",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -51.1857,
+     -29.9128
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/ULBRA",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas",
+    "instituicao": "Universidade Luterana do Brasil (ULBRA)",
+    "cidade": "Canoas",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -51.2065,
+     -30.0318
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/PUCRS",
+    "nome": "Núcleo de Estudos em Cultura Afro-Brasileira e Indígena",
+    "instituicao": "Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -51.2065,
+     -30.0318
+    ]
+   },
+   "properties": {
+    "sigla": "NEAB/UFRGS",
+    "nome": "Núcleo de Estudos Afro-Brasileiros, Indígenas e Africanos",
+    "instituicao": "Universidade Federal do Rio Grande do Sul (UFRGS)",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -52.3371,
+     -31.7649
+    ]
+   },
+   "properties": {
+    "sigla": "É'LÉÉKO/UFPel",
+    "nome": "Núcleo de Estudos e Pesquisas É'LÉÉKO",
+    "instituicao": "Universidade Federal de Pelotas (UFPel)",
+    "cidade": "Pelotas",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -52.1071,
+     -32.0349
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/FURG",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas",
+    "instituicao": "Universidade Federal do Rio Grande (FURG)",
+    "cidade": "Rio Grande",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -54.0999,
+     -31.3297
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UNIPAMPA",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas",
+    "instituicao": "Universidade Federal do Pampa (UNIPAMPA)",
+    "cidade": "Bagé",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -54.0999,
+     -31.3297
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI Mocinha/UNIPAMPA",
+    "nome": "NEABI Mocinha",
+    "instituicao": "Universidade Federal do Pampa (UNIPAMPA)",
+    "cidade": "Bagé",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "https://sites.unipampa.edu.br/neabimocinha/",
+    "categoria": "NEABI",
+    "confianca": "medio",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -56.0036,
+     -28.6578
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UNIPAMPA-São Borja",
+    "nome": "NEABI – Campus São Borja",
+    "instituicao": "Universidade Federal do Pampa (UNIPAMPA)",
+    "cidade": "São Borja",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "https://eventos.unipampa.edu.br/forumneabis/neabisao-borja/",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "UFSCar"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -57.0853,
+     -29.7614
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UNIPAMPA-Uruguaiana",
+    "nome": "NEABI Mãe Fausta – Campus Uruguaiana",
+    "instituicao": "Universidade Federal do Pampa (UNIPAMPA)",
+    "cidade": "Uruguaiana",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "https://www.instagram.com/neabi_mae_fausta",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "UFSCar"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -55.5392,
+     -30.8773
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UNIPAMPA-Livramento",
+    "nome": "NEABI Quilombo do Pampa – Campus Santana do Livramento",
+    "instituicao": "Universidade Federal do Pampa (UNIPAMPA)",
+    "cidade": "Santana do Livramento",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "https://www.instagram.com/neabilivramento/",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "UFSCar"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -54.6694,
+     -30.9756
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UNIPAMPA-Dom Pedrito",
+    "nome": "NEABI Dom Pedritos – Campus Dom Pedrito",
+    "instituicao": "Universidade Federal do Pampa (UNIPAMPA)",
+    "cidade": "Dom Pedrito",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "https://www.instagram.com/neabidompedritors/",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "UFSCar"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -56.5515,
+     -29.1311
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UNIPAMPA-Itaqui",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas – Campus Itaqui",
+    "instituicao": "Universidade Federal do Pampa (UNIPAMPA)",
+    "cidade": "Itaqui",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -53.377,
+     -32.5604
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UNIPAMPA-Jaguarão",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas – Campus Jaguarão",
+    "instituicao": "Universidade Federal do Pampa (UNIPAMPA)",
+    "cidade": "Jaguarão",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -52.2697,
+     -27.6364
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UFFS-Erechim",
+    "nome": "NEABI – Campus Erechim",
+    "instituicao": "Universidade Federal da Fronteira Sul (UFFS)",
+    "cidade": "Erechim",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -52.6152,
+     -27.1004
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/UFFS-Chapecó",
+    "nome": "Núcleo de Estudos Afro-Brasileiros e Indígenas – Campus Chapecó",
+    "instituicao": "Universidade Federal da Fronteira Sul (UFFS)",
+    "cidade": "Chapecó",
+    "uf": "SC",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -51.1857,
+     -29.9128
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFRS-Canoas",
+    "nome": "Núcleo de Estudos Afro-brasileiros e Indígenas – Campus Canoas",
+    "instituicao": "Instituto Federal do Rio Grande do Sul (IFRS)",
+    "cidade": "Canoas",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -51.5165,
+     -29.1662
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFRS-Bento",
+    "nome": "Núcleo de Estudos Afro-brasileiros e Indígenas – Campus Bento Gonçalves",
+    "instituicao": "Instituto Federal do Rio Grande do Sul (IFRS)",
+    "cidade": "Bento Gonçalves",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "https://ifrs.edu.br/bento/nucleos/nucleo-de-estudos-afro-brasileiros-e-indigenas/",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "UFSCar+CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -51.2065,
+     -30.0318
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFRS-Porto Alegre",
+    "nome": "Núcleo de Estudos Afro-brasileiros e Indígenas – Campus Porto Alegre",
+    "instituicao": "Instituto Federal do Rio Grande do Sul (IFRS)",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -51.3032,
+     -29.4527
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFRS-Feliz",
+    "nome": "NEABI – Campus Feliz",
+    "instituicao": "Instituto Federal do Rio Grande do Sul (IFRS)",
+    "cidade": "Feliz",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "alto",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -51.0809,
+     -29.9914
+    ]
+   },
+   "properties": {
+    "sigla": "NAAIA/IFRS-Alvorada",
+    "nome": "Núcleo de Ações Afirmativas – Campus Alvorada",
+    "instituicao": "Instituto Federal do Rio Grande do Sul (IFRS)",
+    "cidade": "Alvorada",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "Correlato",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -53.8149,
+     -29.6868
+    ]
+   },
+   "properties": {
+    "sigla": "NEABI/IFFarroupilha",
+    "nome": "NEABI – Campus São Borja e Uruguaiana",
+    "instituicao": "Instituto Federal Farroupilha (IFFar)",
+    "cidade": "Santa Maria",
+    "uf": "RS",
+    "regiao": "Sul",
+    "site": "",
+    "categoria": "NEABI",
+    "confianca": "medio",
+    "fonte": "CONNEABS"
+   }
+  }
+ ]
+}

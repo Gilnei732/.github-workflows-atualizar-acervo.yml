@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa de NEABs e NEABIs — versão para incorporar</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="assets/mapa-neabs.css">
+<style>
+  html, body { margin: 0; height: 100%; background: #DEE9F0; }
+  #mapa { position: absolute; inset: 0; }
+</style>
+</head>
+<body>
+<div id="mapa" class="neabs-mapa" data-neabs-mapa
+     data-neabs-opcoes='{"mostrarTitulo": false}'></div>
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="dados/neabs.js"></script>
+<script src="assets/mapa-neabs.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+name: Sugerir novos itens para o acervo (OpenAlex)
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Toda segunda-feira às 09:00 UTC (ajuste conforme necessário)
+    - cron: "0 9 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sugerir-acervo:
+    runs-on: ubuntu-latest
+    # O contexto `secrets` não pode ser usado em `if:`; por isso o valor é lido
+    # uma vez aqui e o step de e-mail testa `env.MAIL_USERNAME`.
+    env:
+      MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências
+        run: pip install requests
+
+      - name: Executar busca (gerar rascunho)
+        run: python scripts/buscar_acervo.py
+
+      - name: Criar Pull Request com candidatos
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore(acervo): candidatos sugeridos via script (revisar antes de publicar)"
+          title: "[Acervo] Candidatos sugeridos automaticamente (revisar)"
+          body: |
+            Este PR foi gerado automaticamente pelo workflow **Sugerir novos itens para o acervo**.
+
+            **O que fazer:**
+            1. Revise `scripts/acervo_candidatos.json`.
+            2. Para itens válidos (Paraná/temática NEAB), copie para `dados/acervo.json` e ajuste: `tipo`, `nucleo`, `regiao`, `citacao_abnt`, `pdf/link` e resumo.
+            3. Remova itens irrelevantes.
+            4. Faça merge quando pronto (o site estático usará `dados/acervo.json` no deploy).
+
+            **Atenção:** não publique sem revisão humana (qualidade, ABNT e pertinência).
+          branch: automacao/sugestoes-acervo
+          delete-branch: true
+          add-paths: |
+            scripts/acervo_candidatos.json
+
+      # Envio de e-mail (requer Secrets: MAIL_SERVER, MAIL_PORT, MAIL_USERNAME, MAIL_PASSWORD).
+      - name: Enviar e-mail com candidatos
+        if: env.MAIL_USERNAME != ''
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.MAIL_SERVER }}
+          server_port: ${{ secrets.MAIL_PORT }}
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: "[Observatório NEAB/UEL] Novos candidatos ao acervo para revisão"
+          to: gilnei@uel.br
+          from: "Observatório NEAB-UEL (automação) <${{ secrets.MAIL_USERNAME }}>"
+          body: "Segue em anexo o arquivo acervo_candidatos.json gerado automaticamente. Revise antes de adicionar ao dados/acervo.json."
+          attachments: scripts/acervo_candidatos.json
