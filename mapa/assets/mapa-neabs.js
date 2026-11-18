@@ -77,10 +77,11 @@
     });
     global.L.control.zoom({ position: 'topright' }).addTo(mapa);
     global.L.control.scale({ imperial: false, position: 'bottomleft' }).addTo(mapa);
-    global.L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 18,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" ' +
-                   'target="_blank" rel="noopener">OpenStreetMap</a>'
+    global.L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      maxZoom: 19,
+      subdomains: 'abcd',
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> ' +
+                   '&copy; <a href="https://carto.com/attributions">CARTO</a>'
     }).addTo(mapa);
     mapa.fitBounds(o.limites, { padding: [12, 12] });
 
