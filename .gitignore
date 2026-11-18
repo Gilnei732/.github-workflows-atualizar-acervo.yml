@@ -1,0 +1,7 @@
+# Excel temp/lock files
+~$*
+# Exported spreadsheets (for local review only)
+dados/exportacao_pergamum/
+# Python cache
+__pycache__/
+*.pyc
