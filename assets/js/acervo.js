@@ -38,7 +38,7 @@
         ? '<p style="margin-top:0.6rem;"><a href="' + escapeHtml(item.pdf) + '" target="_blank" rel="noopener noreferrer">Clique aqui para baixar</a></p>'
         : '<p style="margin-top:0.6rem; color:#555;"><em>Arquivo não disponível no momento.</em></p>';
       const bibLink = item.link_biblioteca && item.link_biblioteca.trim()
-        ? '<p style="margin-top:0.4rem; font-size:0.85rem;"><a href="' + escapeHtml(item.link_biblioteca) + '" target="_blank" rel="noopener noreferrer">Ver localização na biblioteca da UEL</a></p>'
+        ? '<p style="margin-top:0.4rem; font-size:0.85rem;"><a href="' + escapeHtml(item.link_biblioteca) + '" target="_blank" rel="noopener noreferrer">Ver localização na biblioteca</a></p>'
         : '';
       return '<article class="card" style="margin-bottom:1rem;">' +
         '<p style="margin:0; font-size:0.95rem;">' + escapeHtml(citacao) + '</p>' +
