@@ -23,6 +23,15 @@
     return div.innerHTML;
   }
 
+  // Sort key: first author surname. Prefer citacao_abnt (starts with author),
+  // fall back to autor field.
+  function sortKey(item) {
+    const cit = (item.citacao_abnt || '').trim();
+    const autor = (item.autor || '').trim();
+    const base = cit || autor || (item.titulo || '');
+    return base.toLowerCase();
+  }
+
   function render(items) {
     if (!items.length) {
       container.innerHTML = '<p class="destaque">Nenhum registro encontrado com os filtros atuais. Ajuste a busca ou os filtros.</p>';
@@ -30,7 +39,9 @@
       return;
     }
     statusEl.textContent = items.length + ' registro(s) exibido(s).';
-    container.innerHTML = items.map(function (item) {
+    let htmlStr = '';
+    for (let i = 0; i < items.length; i++) {
+      const item = items[i];
       const citacao = item.citacao_abnt && item.citacao_abnt.trim()
         ? item.citacao_abnt.trim()
         : ((item.autor || 'AUTOR, Não informado') + '. ' + (item.titulo || 'Título não informado') + '. ' + (item.ano || 's/d') + '.');
@@ -40,12 +51,13 @@
       const bibLink = item.link_biblioteca && item.link_biblioteca.trim()
         ? '<p style="margin-top:0.4rem; font-size:0.85rem;"><a href="' + escapeHtml(item.link_biblioteca) + '" target="_blank" rel="noopener noreferrer">Ver localização na biblioteca</a></p>'
         : '';
-      return '<article class="card" style="margin-bottom:1rem;">' +
+      htmlStr += '<article class="card" style="margin-bottom:1rem;">' +
         '<p style="margin:0; font-size:0.95rem;">' + escapeHtml(citacao) + '</p>' +
         pdfLink +
         bibLink +
         '</article>';
-    }).join('');
+    }
+    container.innerHTML = htmlStr;
   }
 
   function aplicarFiltros() {
@@ -69,17 +81,15 @@
       ].map(function (v) { return (v || '').toLowerCase(); }).join(' ');
       return texto.indexOf(q) !== -1;
     });
+
     filtrados.sort(function (a, b) {
-      const autorA = ((a.autor || '') + '').toLowerCase();
-      const autorB = ((b.autor || '') + '').toLowerCase();
-      if (autorA < autorB) return -1;
-      if (autorA > autorB) return 1;
-      const tituloA = ((a.titulo || '') + '').toLowerCase();
-      const tituloB = ((b.titulo || '') + '').toLowerCase();
-      if (tituloA < tituloB) return -1;
-      if (tituloA > tituloB) return 1;
+      const ka = sortKey(a);
+      const kb = sortKey(b);
+      if (ka < kb) return -1;
+      if (ka > kb) return 1;
       return 0;
     });
+
     render(filtrados);
   }
 
