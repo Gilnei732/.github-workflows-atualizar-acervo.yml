@@ -70,7 +70,15 @@
       return texto.indexOf(q) !== -1;
     });
     filtrados.sort(function (a, b) {
-      return (Number(b.ano) || 0) - (Number(a.ano) || 0);
+      const autorA = ((a.autor || '') + '').toLowerCase();
+      const autorB = ((b.autor || '') + '').toLowerCase();
+      if (autorA < autorB) return -1;
+      if (autorA > autorB) return 1;
+      const tituloA = ((a.titulo || '') + '').toLowerCase();
+      const tituloB = ((b.titulo || '') + '').toLowerCase();
+      if (tituloA < tituloB) return -1;
+      if (tituloA > tituloB) return 1;
+      return 0;
     });
     render(filtrados);
   }
