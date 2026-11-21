@@ -11,6 +11,7 @@
   const PAGE_SIZE = 20;
   let currentPage = 1;
   let filteredCache = [];
+  let showAllMode = false;
 
   if (!container || !statusEl) return;
   const tipoLabels = {
@@ -117,6 +118,16 @@
     const tipo = tipoSelect && tipoSelect.value ? tipoSelect.value : '';
     const inst = instSelect && instSelect.value ? instSelect.value : '';
     const ano = anoSelect && anoSelect.value ? anoSelect.value : '';
+
+    // Modo inicial: nenhum item exibido ate o usuario buscar ou clicar em "Mostrar todos"
+    const hasFilter = q || tipo || inst || ano;
+    if (!hasFilter && !showAllMode) {
+      filteredCache = [];
+      container.innerHTML = '<p class="destaque">Digite um termo na busca ou use os filtros para consultar o acervo. Ou clique em <strong>Mostrar todos os registros</strong> para listar todos (' + dados.length + ' itens).</p>';
+      statusEl.textContent = 'Nenhum registro exibido. Use a busca ou os filtros.';
+      if (pagDiv) pagDiv.innerHTML = '';
+      return;
+    }
 
     const filtrados = dados.filter(function (item) {
       const matchTipo = !tipo || item.tipo === tipo;
@@ -230,7 +241,19 @@
     });
   }
 
-  if (buscaInput) buscaInput.addEventListener('input', aplicarFiltros);
+  if (buscaInput) buscaInput.addEventListener('input', function () { showAllMode = false; aplicarFiltros(); });
+
+  const btnMostrarTodos = document.getElementById('acervo-mostrar-todos');
+  if (btnMostrarTodos) {
+    btnMostrarTodos.addEventListener('click', function () {
+      showAllMode = true;
+      if (buscaInput) buscaInput.value = '';
+      if (tipoSelect) tipoSelect.value = '';
+      if (instSelect) instSelect.value = '';
+      if (anoSelect) anoSelect.value = '';
+      aplicarFiltros();
+    });
+  }
   if (tipoSelect) tipoSelect.addEventListener('change', aplicarFiltros);
   if (instSelect) instSelect.addEventListener('change', aplicarFiltros);
   if (anoSelect) anoSelect.addEventListener('change', aplicarFiltros);
