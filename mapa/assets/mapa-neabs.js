@@ -140,6 +140,40 @@
       });
     }
 
+    function atualizarInfo() {
+      var dadosFiltrados = focoPR ? dados.filter(function (d) { return d.uf === 'PR'; }) : dados;
+      var totalF = dadosFiltrados.length;
+      var cCatF = {};
+      CATS.forEach(function (c) { cCatF[c] = contar(dadosFiltrados, 'categoria', c); });
+      var nMunF = new Set(dadosFiltrados.map(function (d) { return d.cidade + '|' + d.uf; })).size;
+      var tituloEl = document.querySelector('.nm-h1');
+      if (tituloEl) {
+        tituloEl.textContent = focoPR ? 'Núcleos de Estudos Afro-Brasileiros e Indígenas — Paraná' : o.titulo;
+      }
+      var subEl = document.querySelector('.nm-sub');
+      if (subEl) {
+        subEl.innerHTML = '<strong>' + cCatF.NEAB + ' NEAB</strong> · ' +
+          '<strong>' + cCatF.NEABI + ' NEABI</strong> · ' +
+          '<strong>' + cCatF.Correlato + ' correlatos</strong>';
+      }
+      var fracoEl = document.querySelector('.nm-sub.nm-fraco');
+      if (fracoEl) {
+        fracoEl.textContent = totalF + ' registros em ' + nMunF + ' municípios-sede' +
+          (focoPR ? ' (Paraná)' : '');
+      }
+      if (itensEl) {
+        var labels = itensEl.querySelectorAll('label');
+        Array.prototype.forEach.call(labels, function (lab) {
+          var nome = lab.querySelector('.nm-nome');
+          if (!nome) return;
+          var txt = nome.textContent;
+          var small = lab.querySelector('small');
+          if (txt === 'Paraná' && small) small.textContent = contar(dados, 'uf', 'PR');
+          if (CATS.indexOf(txt) >= 0 && small) small.textContent = cCatF[txt];
+        });
+      }
+    }
+
     function definirRecolhido(painel, recolhido) {
       var btn = painel.querySelector('.nm-btn-min');
       painel.classList.toggle('nm-recolhido', recolhido);
@@ -277,6 +311,7 @@
           } else {
             mapa.fitBounds(o.limites, { padding: [12, 12] });
           }
+          atualizarInfo();
           desenhar();
         });
         itensEl.appendChild(prLab);
