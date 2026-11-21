@@ -120,7 +120,7 @@
       camada.clearLayers();
       var ordem = ['Correlato', 'NEABI', 'NEAB'];
       ordem.forEach(function (cat) {
-        if (!ativos.has(cat)) return;
+        if (!focoPR && !ativos.has(cat)) return;
         dados.forEach(function (d) {
           if (focoPR && d.uf !== 'PR') return;
           if (d.categoria !== cat) return;
@@ -307,6 +307,8 @@
           focoPR = prInput.checked;
           prLab.classList.toggle('nm-desligado', !focoPR);
           if (focoPR) {
+            ativos = new Set(CATS);
+            if (itensEl) atualizarItens();
             mapa.setView([-24.5, -51.5], 7);
           } else {
             mapa.fitBounds(o.limites, { padding: [12, 12] });
