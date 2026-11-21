@@ -68,7 +68,6 @@
       const shareLinks = '<p style="margin-top:0.4rem; font-size:0.85rem;">' +
         '<a href="#" data-share="copy" data-url="' + escapeHtml(shareUrl) + '" style="margin-right:0.6rem;">Copiar link</a>' +
         '<a href="https://wa.me/?text=' + shareText + '" target="_blank" rel="noopener" style="margin-right:0.6rem;">WhatsApp</a>' +
-        '<a href="mailto:?subject=' + encodeURIComponent('Referência do acervo NEAB/UEL') + '&body=' + shareText + '" style="margin-right:0.6rem;">E-mail</a>' +
         '</p>';
       htmlStr += '<article class="card" style="margin-bottom:1rem;">' +
         '<p style="margin:0; font-size:0.95rem;">' + escapeHtml(citacao) + '</p>' +
@@ -255,7 +254,7 @@
     });
   }
 
-  // Export CSV button
+  // Export XLS button
   const btnExportar = document.getElementById('acervo-exportar');
   if (btnExportar) {
     btnExportar.addEventListener('click', function () {
