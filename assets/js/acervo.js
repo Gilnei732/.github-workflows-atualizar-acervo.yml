@@ -120,8 +120,8 @@
     const hasFilter = q || tipo || inst || ano;
     if (!hasFilter && !showAllMode) {
       filteredCache = [];
-      container.innerHTML = '<p class="destaque">Digite um termo na busca ou use os filtros para consultar o acervo. Ou clique em <strong>Mostrar todos os registros</strong> para listar todos (' + dados.length + ' itens).</p>';
-      statusEl.textContent = 'Nenhum registro exibido. Use a busca ou os filtros.';
+      container.innerHTML = '';
+      statusEl.textContent = '';
       if (pagDiv) pagDiv.innerHTML = '';
       return;
     }
