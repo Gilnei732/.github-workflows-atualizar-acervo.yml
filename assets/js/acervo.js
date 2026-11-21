@@ -69,7 +69,7 @@
         '<a href="#" data-share="copy" data-url="' + escapeHtml(shareUrl) + '" style="margin-right:0.6rem;">Copiar link</a>' +
         '<a href="https://wa.me/?text=' + shareText + '" target="_blank" rel="noopener" style="margin-right:0.6rem;">WhatsApp</a>' +
         '</p>';
-      htmlStr += '<article class="card" style="margin-bottom:1rem;">' +
+      htmlStr += '<article class="card fade-in" style="margin-bottom:1rem;">' +
         '<p style="margin:0; font-size:0.95rem;">' + escapeHtml(citacao) + '</p>' +
         pdfLink +
         bibLink +
@@ -147,6 +147,7 @@
     filteredCache = filtrados;
     currentPage = 1;
     render(filteredCache);
+    if (typeof window.observeFadeIn === 'function') window.observeFadeIn();
   }
 
   function preencherAnos(lista) {
