@@ -206,6 +206,8 @@
     });
 
   function renderStats(dados) {
+    var el = document.getElementById('stats-total');
+    if (el) el.textContent = dados.length;
     if (typeof Chart === 'undefined') return;
     // Tipo
     const tipoCounts = {};
