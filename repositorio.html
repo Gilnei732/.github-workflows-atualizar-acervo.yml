@@ -23,7 +23,11 @@
       <a href="rede-neabs-pr.html">NEABs no Paraná</a>
       <a href="dados-indicadores.html">Dados e Indicadores</a>
       <a href="repositorio.html">Repositório</a>
+      <a href="equipe.html">Equipe</a>
       <a href="contato.html">Contato</a>
+      <form action="repositorio.html" method="get" style="display:inline; margin-left:1rem;">
+        <input type="text" name="q" placeholder="Buscar no acervo..." style="padding:0.3rem 0.5rem; border:1px solid #ccc; border-radius:4px; font-size:0.85rem;">
+      </form>
     </div>
   </nav>
 
@@ -32,22 +36,6 @@
       <h2>Repositório de estudos e pesquisas</h2>
       <p>Acervo de referências sobre <strong>temática negra</strong> no Paraná, com ênfase em produções vinculadas a NEABs, NEIABs, Neabis e grupos correlatos. Os registros podem incluir teses, dissertações, TCCs, monografias, artigos e outros materiais acadêmicos e técnicos.</p>
 
-    </section>
-
-    <section class="fade-in">
-      <h2>Estatísticas do acervo</h2>
-      <p>Visão geral dos <span id="stats-total">0</span> registros cadastrados, por tipo, ano e instituição.</p>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 1rem 0;">
-        <div style="background:#fff; padding:1rem; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.08);">
-          <canvas id="chart-tipo" height="220"></canvas>
-        </div>
-        <div style="background:#fff; padding:1rem; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.08);">
-          <canvas id="chart-ano" height="220"></canvas>
-        </div>
-        <div style="background:#fff; padding:1rem; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.08);">
-          <canvas id="chart-inst" height="220"></canvas>
-        </div>
-      </div>
     </section>
 
     <section class="fade-in">
@@ -94,7 +82,21 @@
       <div id="acervo-paginacao" style="margin:1.5rem 0; text-align:center;"></div>
     </section>
 
-
+    <section class="fade-in">
+      <h2>Estatísticas do acervo</h2>
+      <p>Visão geral dos <span id="stats-total">0</span> registros cadastrados, por tipo, ano e instituição.</p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 1rem 0;">
+        <div style="background:#fff; padding:1rem; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.08);">
+          <canvas id="chart-tipo" height="220"></canvas>
+        </div>
+        <div style="background:#fff; padding:1rem; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.08);">
+          <canvas id="chart-ano" height="220"></canvas>
+        </div>
+        <div style="background:#fff; padding:1rem; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.08);">
+          <canvas id="chart-inst" height="220"></canvas>
+        </div>
+      </div>
+    </section>
 
     <section>
       <h2>Sugerir materiais para o acervo</h2>
