@@ -63,10 +63,18 @@
       const bibLink = item.link_biblioteca && item.link_biblioteca.trim()
         ? '<p style="margin-top:0.4rem; font-size:0.85rem;"><a href="' + escapeHtml(item.link_biblioteca) + '" target="_blank" rel="noopener noreferrer">Ver localização na biblioteca</a></p>'
         : '';
+      const shareUrl = window.location.origin + window.location.pathname.replace('repositorio.html','') + 'repositorio.html?q=' + encodeURIComponent(item.titulo || '');
+      const shareText = encodeURIComponent(citacao + (item.pdf ? ' ' + item.pdf : ''));
+      const shareLinks = '<p style="margin-top:0.4rem; font-size:0.85rem;">' +
+        '<a href="#" data-share="copy" data-url="' + escapeHtml(shareUrl) + '" style="margin-right:0.6rem;">Copiar link</a>' +
+        '<a href="https://wa.me/?text=' + shareText + '" target="_blank" rel="noopener" style="margin-right:0.6rem;">WhatsApp</a>' +
+        '<a href="mailto:?subject=' + encodeURIComponent('Referência do acervo NEAB/UEL') + '&body=' + shareText + '" style="margin-right:0.6rem;">E-mail</a>' +
+        '</p>';
       htmlStr += '<article class="card" style="margin-bottom:1rem;">' +
         '<p style="margin:0; font-size:0.95rem;">' + escapeHtml(citacao) + '</p>' +
         pdfLink +
         bibLink +
+        shareLinks +
         '</article>';
     }
     container.innerHTML = htmlStr;
@@ -226,6 +234,56 @@
   if (tipoSelect) tipoSelect.addEventListener('change', aplicarFiltros);
   if (instSelect) instSelect.addEventListener('change', aplicarFiltros);
   if (anoSelect) anoSelect.addEventListener('change', aplicarFiltros);
+  // Event delegation for share (copy link)
+  if (container) {
+    container.addEventListener('click', function (e) {
+      const target = e.target;
+      if (target && target.getAttribute && target.getAttribute('data-share') === 'copy') {
+        e.preventDefault();
+        const url = target.getAttribute('data-url');
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(url).then(function () {
+            target.textContent = 'Link copiado!';
+            setTimeout(function () { target.textContent = 'Copiar link'; }, 2000);
+          }).catch(function () {
+            window.prompt('Copie o link:', url);
+          });
+        } else {
+          window.prompt('Copie o link:', url);
+        }
+      }
+    });
+  }
+
+  // Export CSV button
+  const btnExportar = document.getElementById('acervo-exportar');
+  if (btnExportar) {
+    btnExportar.addEventListener('click', function () {
+      if (!filteredCache || !filteredCache.length) {
+        alert('Nenhum item para exportar.');
+        return;
+      }
+      const cols = ['id','autor','titulo','ano','tipo','instituicao','citacao_abnt','link','pdf','link_biblioteca'];
+      let csv = cols.join(';') + '\\n';
+      filteredCache.forEach(function (item) {
+        const row = cols.map(function (c) {
+          const v = item[c] == null ? '' : String(item[c]);
+          return '"' + v.replace(/"/g, '""') + '"';
+        });
+        csv += row.join(';') + '\\n';
+      });
+      const blob = new Blob(['\\uFEFF' + csv], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'acervo_filtrado.csv';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    });
+  }
+
   if (btnLimpar) {
     btnLimpar.addEventListener('click', function () {
       if (buscaInput) buscaInput.value = '';
