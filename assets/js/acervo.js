@@ -263,20 +263,38 @@
         alert('Nenhum item para exportar.');
         return;
       }
-      const cols = ['id','autor','titulo','ano','tipo','instituicao','citacao_abnt','link','pdf','link_biblioteca'];
-      let csv = cols.join(';') + '\\n';
+      const cols = [
+        { key: 'id', label: 'ID' },
+        { key: 'autor', label: 'Autor' },
+        { key: 'titulo', label: 'Título' },
+        { key: 'ano', label: 'Ano' },
+        { key: 'tipo', label: 'Tipo' },
+        { key: 'instituicao', label: 'Instituição' },
+        { key: 'citacao_abnt', label: 'Referência (ABNT)' },
+        { key: 'link', label: 'Link' },
+        { key: 'pdf', label: 'PDF' },
+        { key: 'link_biblioteca', label: 'Localização na biblioteca' }
+      ];
+      // Build an HTML table that Excel opens as .xls
+      let html = '<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:excel" xmlns="http://www.w3.org/TR/REC-html40">';
+      html += '<head><meta charset="UTF-8"><style>td,th{border:1px solid #999;padding:4px;font-family:Calibri;font-size:11pt;} th{background:#2c3e50;color:#fff;font-weight:bold;} tr:nth-child(even){background:#f2f2f2;}</style></head><body>';
+      html += '<table><thead><tr>';
+      cols.forEach(function (c) { html += '<th>' + escapeHtml(c.label) + '</th>'; });
+      html += '</tr></thead><tbody>';
       filteredCache.forEach(function (item) {
-        const row = cols.map(function (c) {
-          const v = item[c] == null ? '' : String(item[c]);
-          return '"' + v.replace(/"/g, '""') + '"';
+        html += '<tr>';
+        cols.forEach(function (c) {
+          const v = item[c.key] == null ? '' : String(item[c.key]);
+          html += '<td>' + escapeHtml(v) + '</td>';
         });
-        csv += row.join(';') + '\\n';
+        html += '</tr>';
       });
-      const blob = new Blob(['\\uFEFF' + csv], { type: 'text/csv;charset=utf-8;' });
+      html += '</tbody></table></body></html>';
+      const blob = new Blob([html], { type: 'application/vnd.ms-excel;charset=utf-8;' });
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'acervo_filtrado.csv';
+      a.download = 'acervo_filtrado.xls';
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
