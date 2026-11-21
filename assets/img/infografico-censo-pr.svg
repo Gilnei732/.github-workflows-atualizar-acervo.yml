@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" width="100%" style="max-width:820px; font-family: 'Segoe UI', Arial, sans-serif;">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2c3e50"/>
+      <stop offset="100%" stop-color="#3498db"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e67e22"/>
+      <stop offset="100%" stop-color="#f39c12"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="820" height="520" fill="#f7f9fc" rx="12"/>
+
+  <!-- Title -->
+  <text x="410" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#2c3e50">População Negra no Paraná — Censo IBGE 2022</text>
+  <text x="410" y="62" text-anchor="middle" font-size="12" fill="#666">Formada pela soma de pessoas autodeclaradas pretas e pardas</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="75" x2="780" y2="75" stroke="#ddd" stroke-width="1"/>
+
+  <!-- Big number: total -->
+  <g transform="translate(40, 95)">
+    <rect width="240" height="110" rx="8" fill="url(#g1)"/>
+    <text x="120" y="45" text-anchor="middle" font-size="34" font-weight="700" fill="#fff">3.925.818</text>
+    <text x="120" y="70" text-anchor="middle" font-size="13" fill="#ecf0f1">pessoas negras (34,3%)</text>
+    <text x="120" y="90" text-anchor="middle" font-size="11" fill="#bdc3c7">de 11.444.380 habitantes</text>
+  </g>
+
+  <!-- Pretos -->
+  <g transform="translate(295, 95)">
+    <rect width="240" height="110" rx="8" fill="#34495e"/>
+    <text x="120" y="40" text-anchor="middle" font-size="26" font-weight="700" fill="#fff">485.781</text>
+    <text x="120" y="62" text-anchor="middle" font-size="12" fill="#ecf0f1">pessoas pretas (4,2%)</text>
+    <text x="120" y="82" text-anchor="middle" font-size="12" fill="#2ecc71" font-weight="600">+46,8% desde 2010</text>
+    <text x="120" y="98" text-anchor="middle" font-size="10" fill="#bdc3c7">maior avanço proporcional</text>
+  </g>
+
+  <!-- Pardos -->
+  <g transform="translate(550, 95)">
+    <rect width="230" height="110" rx="8" fill="#7f8c8d"/>
+    <text x="115" y="40" text-anchor="middle" font-size="26" font-weight="700" fill="#fff">+31,3%</text>
+    <text x="115" y="62" text-anchor="middle" font-size="12" fill="#ecf0f1">crescimento dos pardos</text>
+    <text x="115" y="82" text-anchor="middle" font-size="11" fill="#ecf0f1">+819,6 mil pessoas</text>
+    <text x="115" y="98" text-anchor="middle" font-size="10" fill="#bdc3c7">frente ao Censo 2010</text>
+  </g>
+
+  <!-- Comparativo Paraná vs Brasil -->
+  <g transform="translate(40, 225)">
+    <text x="0" y="0" font-size="14" font-weight="600" fill="#2c3e50">Comparativo: Paraná vs. Brasil</text>
+    <rect x="0" y="15" width="300" height="22" rx="4" fill="#e0e0e0"/>
+    <rect x="0" y="15" width="103" height="22" rx="4" fill="#2c3e50"/>
+    <text x="108" y="31" font-size="11" fill="#333">Paraná: 34,3%</text>
+    <rect x="0" y="45" width="300" height="22" rx="4" fill="#e0e0e0"/>
+    <rect x="0" y="45" width="166" height="22" rx="4" fill="#3498db"/>
+    <text x="171" y="61" font-size="11" fill="#333">Brasil: 55,5%</text>
+    <text x="0" y="85" font-size="11" fill="#666">O Paraná está abaixo da média nacional (55,5%).</text>
+  </g>
+
+  <!-- Londrina -->
+  <g transform="translate(400, 225)">
+    <text x="0" y="0" font-size="14" font-weight="600" fill="#2c3e50">Destaque local: Londrina</text>
+    <rect x="0" y="15" width="380" height="70" rx="8" fill="#fff" stroke="#ddd" stroke-width="1"/>
+    <text x="20" y="42" font-size="24" font-weight="700" fill="#2c3e50">180.117</text>
+    <text x="20" y="62" font-size="11" fill="#666">pessoas negras (32,4% dos 555.965 moradores)</text>
+    <text x="20" y="78" font-size="10" fill="#888">148.247 pardos + 31.870 pretos</text>
+  </g>
+
+  <!-- Representação política -->
+  <g transform="translate(40, 335)">
+    <text x="0" y="0" font-size="14" font-weight="600" fill="#2c3e50">Representação política (Eleições 2026 — TRE-PR)</text>
+    <rect x="0" y="15" width="370" height="50" rx="6" fill="#fff" stroke="#ddd" stroke-width="1"/>
+    <text x="20" y="38" font-size="13" fill="#333">Candidaturas pretas/pardas: <tspan font-weight="700" fill="#2c3e50">24,86%</tspan></text>
+    <text x="20" y="56" font-size="13" fill="#333">Eleitos pretos/pardos: <tspan font-weight="700" fill="#e74c3c">6,52%</tspan></text>
+
+    <rect x="400" y="15" width="340" height="50" rx="6" fill="#fff" stroke="#ddd" stroke-width="1"/>
+    <text x="420" y="38" font-size="12" fill="#333">Eleitores sem cor/raça no cadastro:</text>
+    <text x="420" y="56" font-size="13" font-weight="700" fill="#e67e22">82,52% (7.085.743 pessoas)</text>
+  </g>
+
+  <!-- Footer note -->
+  <text x="410" y="430" text-anchor="middle" font-size="10" fill="#888">Fonte: IBGE Censo 2022; TRE-PR (nov/2026); Guia Negro; Tem Londrina.</text>
+  <text x="410" y="448" text-anchor="middle" font-size="10" fill="#888">Observatório de Estudos e Pesquisas sobre Temática Afro-Brasileira — NEAB/UEL</text>
+
+  <!-- Decorative bar -->
+  <rect x="40" y="465" width="740" height="4" rx="2" fill="url(#g1)"/>
+</svg>
