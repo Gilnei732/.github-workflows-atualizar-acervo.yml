@@ -85,6 +85,7 @@
 
     var modo = o.modoInicial === 'regiao' ? 'regiao' : 'categoria';
     var ativos = new Set(CATS);
+    var focoPR = false;
     var camada = global.L.layerGroup().addTo(mapa);
     var paineis = [];
 
@@ -121,6 +122,7 @@
       ordem.forEach(function (cat) {
         if (!ativos.has(cat)) return;
         dados.forEach(function (d) {
+          if (focoPR && d.uf !== 'PR') return;
           if (d.categoria !== cat) return;
           var icone = global.L.divIcon({
             className: 'nm-pt ' + CLASSE[d.categoria],
@@ -258,7 +260,27 @@
           });
           itensEl.appendChild(lab);
         });
-        notaEl.innerHTML = 'Marque para filtrar.<br>' + FONTE;
+        // Toggle Paraná
+        var prLab = document.createElement('label');
+        prLab.className = 'nm-linha';
+        prLab.innerHTML =
+          '<input type="checkbox"' + (focoPR ? ' checked' : '') + '>' +
+          '<span class="nm-marca nm-circulo" style="background:#e74c3c"></span>' +
+          '<span class="nm-nome" title="Destacar apenas núcleos do Paraná">Paraná</span>' +
+          '<small>' + contar(dados, 'uf', 'PR') + '</small>';
+        var prInput = prLab.querySelector('input');
+        prInput.addEventListener('change', function () {
+          focoPR = prInput.checked;
+          prLab.classList.toggle('nm-desligado', !focoPR);
+          if (focoPR) {
+            mapa.setView([-24.5, -51.5], 7);
+          } else {
+            mapa.fitBounds(o.limites, { padding: [12, 12] });
+          }
+          desenhar();
+        });
+        itensEl.appendChild(prLab);
+        notaEl.innerHTML = 'Marque para filtrar. Paraná = foco no estado.<br>' + FONTE;
       } else {
         REGS.forEach(function (r) {
           var div = document.createElement('div');
