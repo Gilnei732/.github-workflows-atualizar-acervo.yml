@@ -59,22 +59,19 @@
         ? item.citacao_abnt.trim()
         : ((item.autor || 'AUTOR, Não informado') + '. ' + (item.titulo || 'Título não informado') + '. ' + (item.ano || 's/d') + '.');
       const pdfLink = item.pdf && item.pdf.trim()
-        ? '<p style="margin-top:0.6rem;"><a href="' + escapeHtml(item.pdf) + '" target="_blank" rel="noopener noreferrer">Clique aqui para baixar</a></p>'
-        : '<p style="margin-top:0.6rem; color:#555;"><em>Arquivo não disponível no momento.</em></p>';
+        ? '<a href="' + escapeHtml(item.pdf) + '" target="_blank" rel="noopener noreferrer" style="margin-right:1rem;">Clique aqui para baixar</a>'
+        : '<span style="color:#555; margin-right:1rem;"><em>Arquivo não disponível no momento.</em></span>';
       const bibLink = item.link_biblioteca && item.link_biblioteca.trim()
-        ? '<p style="margin-top:0.4rem; font-size:0.85rem;"><a href="' + escapeHtml(item.link_biblioteca) + '" target="_blank" rel="noopener noreferrer">Ver localização na biblioteca</a></p>'
+        ? '<a href="' + escapeHtml(item.link_biblioteca) + '" target="_blank" rel="noopener noreferrer" style="margin-right:1rem;">Ver localização na biblioteca</a>'
         : '';
       const shareUrl = window.location.origin + window.location.pathname.replace('repositorio.html','') + 'repositorio.html?q=' + encodeURIComponent(item.titulo || '');
       const shareText = encodeURIComponent(citacao + (item.pdf ? ' ' + item.pdf : ''));
-      const shareLinks = '<p style="margin-top:0.4rem; font-size:0.85rem;">' +
-        '<a href="#" data-share="copy" data-url="' + escapeHtml(shareUrl) + '" style="margin-right:0.6rem;">Copiar link</a>' +
-        '<a href="https://wa.me/?text=' + shareText + '" target="_blank" rel="noopener" style="margin-right:0.6rem;">WhatsApp</a>' +
-        '</p>';
+      const shareLinks =
+        '<a href="#" data-share="copy" data-url="' + escapeHtml(shareUrl) + '" style="margin-right:1rem;">Copiar link</a>' +
+        '<a href="https://wa.me/?text=' + shareText + '" target="_blank" rel="noopener" style="margin-right:1rem;">WhatsApp</a>';
       htmlStr += '<article class="card fade-in" style="margin-bottom:1rem;">' +
         '<p style="margin:0; font-size:0.95rem;">' + escapeHtml(citacao) + '</p>' +
-        pdfLink +
-        bibLink +
-        shareLinks +
+        '<p style="margin-top:0.6rem; font-size:0.9rem;">' + pdfLink + bibLink + shareLinks + '</p>' +
         '</article>';
     }
     container.innerHTML = htmlStr;
